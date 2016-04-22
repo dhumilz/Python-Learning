@@ -8,9 +8,9 @@ try:
 		if hours > 40 :
 			overtime = hours-40
 			hours = 40
-			pay = (hours * rate)
+			pay = (hours * rate)+ (overtime * rate * 1.5)
 		else:
-			pay = (hours * rate) + (overtime * rate * 1.5)
+			pay = (hours * rate) 
 		print 'Pay:', pay 
 	except:
 		print ' Please enter a number'
