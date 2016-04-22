@@ -1,0 +1,1 @@
+print 'First step like a baby who learns how to walk and then run'
